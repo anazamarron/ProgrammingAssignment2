@@ -19,15 +19,15 @@ Here there are two functions for creating the inverse of a Matrix
 
 First we call `makeCacheMatrix` passing the matrix as an argument:
 
-        `>matriz<-matrix(1:4,2,2)`
+        >matriz<-matrix(1:4,2,2)
         > matriz
             [,1] [,2] 
         [1,]    1    3
         [2,]    2    4
 
-        `>invertido <- makeCacheMatrix(matriz)`
+        >invertido <- makeCacheMatrix(matriz)
 
-        `>resultado<-cacheSolve(invertido)`
+        >resultado<-cacheSolve(invertido)
         > resultado
              [,1] [,2]
         [1,]   -2  1.5
@@ -42,5 +42,3 @@ to cache:
              [,1] [,2]
         [1,]   -2  1.5
         [2,]    1 -0.5
-
-And this is the result
